@@ -1,0 +1,5 @@
+E:/STM32/STM32C562/STM32C542_LSM6DSR_LIS2MDL_Project1_cmake/main.c:32:5:_write	32	static
+E:/STM32/STM32C562/STM32C542_LSM6DSR_LIS2MDL_Project1_cmake/main.c:82:5:main	64	static
+E:/STM32/STM32C562/STM32C542_LSM6DSR_LIS2MDL_Project1_cmake/main.c:215:16:platform_write	48	static
+E:/STM32/STM32C562/STM32C542_LSM6DSR_LIS2MDL_Project1_cmake/main.c:244:16:platform_read	48	static
+E:/STM32/STM32C562/STM32C542_LSM6DSR_LIS2MDL_Project1_cmake/main.c:272:13:platform_delay	16	static
