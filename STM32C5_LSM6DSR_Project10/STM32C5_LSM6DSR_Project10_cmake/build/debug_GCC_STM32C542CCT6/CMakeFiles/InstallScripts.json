@@ -1,0 +1,13 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/cmake_install.cmake",
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/arch/cmsis/cmake_install.cmake",
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/stm32c5xx_dfp/cmake_install.cmake",
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/stm32c5xx_drivers/cmake_install.cmake",
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/utilities/syscalls/cmake_install.cmake",
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/generated/hal/cmake_install.cmake",
+		"C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6/generated/utilities/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

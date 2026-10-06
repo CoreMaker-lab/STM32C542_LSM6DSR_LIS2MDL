@@ -1,0 +1,285 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "STMicroelectronics_CMSIS_6_3_0::@2526a0ecc8c9b81cc18c",
+					"jsonFile" : "target-STMicroelectronics_CMSIS_6_3_0-debug_GCC_STM32C542CCT6-0ddb63dd1a5daeaf5133.json",
+					"name" : "STMicroelectronics_CMSIS_6_3_0",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "STMicroelectronics_stm32c5xx_dfp_2_1_0::@30629a29855fa61b4c6a",
+					"jsonFile" : "target-STMicroelectronics_stm32c5xx_dfp_2_1_0-debug_GCC_STM32C542CCT6-16c31404702f39c388a7.json",
+					"name" : "STMicroelectronics_stm32c5xx_dfp_2_1_0",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "STMicroelectronics_stm32c5xx_hal_drivers_2_1_0::@7bca7ae2963d0ee0ce7e",
+					"jsonFile" : "target-STMicroelectronics_stm32c5xx_hal_drivers_2_1_0-debug_GCC_STM32C542CCT6-94ab4e8384c0ae5f11e5.json",
+					"name" : "STMicroelectronics_stm32c5xx_hal_drivers_2_1_0",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "STMicroelectronics_syscalls_2_0_0::@26947dc6adce9a364841",
+					"jsonFile" : "target-STMicroelectronics_syscalls_2_0_0-debug_GCC_STM32C542CCT6-ebf96b9110f4c3336baa.json",
+					"name" : "STMicroelectronics_syscalls_2_0_0",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "generated_STMicroelectronics_stm32c5xx_hal_drivers_0_0_1::@7aadf589f92185dd1daf",
+					"jsonFile" : "target-generated_STMicroelectronics_stm32c5xx_hal_drivers_0_0_1-debug_GCC_STM32C542CCT6-1f32ce5d47ce2c89be84.json",
+					"name" : "generated_STMicroelectronics_stm32c5xx_hal_drivers_0_0_1",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "generated_STMicroelectronics_syscalls_2_0_0::@ee67d3c91d85aa09ffbc",
+					"jsonFile" : "target-generated_STMicroelectronics_syscalls_2_0_0-debug_GCC_STM32C542CCT6-a7a45c88e206bc1eb1ee.json",
+					"name" : "generated_STMicroelectronics_syscalls_2_0_0",
+					"projectIndex" : 6
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"jsonFile" : "directory-.-debug_GCC_STM32C542CCT6-f040eec181a89de70dbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "arch/cmsis",
+					"jsonFile" : "directory-arch.cmsis-debug_GCC_STM32C542CCT6-282738350939a8f4d748.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "arch/cmsis"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"build" : "stm32c5xx_dfp",
+					"jsonFile" : "directory-stm32c5xx_dfp-debug_GCC_STM32C542CCT6-d79cab9873f44e15b798.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "stm32c5xx_dfp"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"build" : "stm32c5xx_drivers",
+					"jsonFile" : "directory-stm32c5xx_drivers-debug_GCC_STM32C542CCT6-55f6fd8a1bed7ac21f98.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "stm32c5xx_drivers"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"build" : "utilities/syscalls",
+					"jsonFile" : "directory-utilities.syscalls-debug_GCC_STM32C542CCT6-e0781f249fd9c4972d94.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "utilities/syscalls"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4
+					],
+					"build" : "generated/hal",
+					"jsonFile" : "directory-generated.hal-debug_GCC_STM32C542CCT6-677c92152563dd20afcf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 5,
+					"source" : "generated/hal"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5
+					],
+					"build" : "generated/utilities",
+					"jsonFile" : "directory-generated.utilities-debug_GCC_STM32C542CCT6-38b1c0e89d7b85f92752.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.30"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 6,
+					"source" : "generated/utilities"
+				}
+			],
+			"name" : "debug_GCC_STM32C542CCT6",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "STM32C5_LSM6DSR_Project3",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "STMicroelectronics_CMSIS_6_3_0",
+					"parentIndex" : 0
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "STMicroelectronics_stm32c5xx_dfp_2_1_0",
+					"parentIndex" : 0
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						2
+					],
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "STMicroelectronics_stm32c5xx_hal_drivers_2_1_0",
+					"parentIndex" : 0
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "STMicroelectronics_syscalls_2_0_0",
+					"parentIndex" : 0
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "generated_STMicroelectronics_stm32c5xx_hal_drivers_0_0_1",
+					"parentIndex" : 0
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "generated_STMicroelectronics_syscalls_2_0_0",
+					"parentIndex" : 0
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "STM32C5_LSM6DSR_Project3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-STM32C5_LSM6DSR_Project3-debug_GCC_STM32C542CCT6-ab7a4893b13cc126d635.json",
+					"name" : "STM32C5_LSM6DSR_Project3",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/build/debug_GCC_STM32C542CCT6",
+		"source" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

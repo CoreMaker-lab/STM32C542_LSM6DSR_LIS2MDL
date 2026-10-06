@@ -1,0 +1,3 @@
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project9/STM32C5_LSM6DSR_Project9_cmake/generated/hal/mx_icache.c:34:22:mx_icache_init	8	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project9/STM32C5_LSM6DSR_Project9_cmake/generated/hal/mx_icache.c:46:6:mx_icache_deinit	8	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project9/STM32C5_LSM6DSR_Project9_cmake/generated/hal/mx_icache.c:51:22:mx_icache_gethandle	4	static

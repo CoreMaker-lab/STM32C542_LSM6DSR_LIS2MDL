@@ -1,0 +1,6 @@
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/main.c:26:5:_write	32	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/main.c:51:6:HAL_EXTI_TriggerCallback	16	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/main.c:69:5:main	112	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/main.c:271:16:platform_write	40	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/main.c:278:16:platform_read	40	static
+C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/main.c:287:13:platform_delay	16	static

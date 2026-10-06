@@ -1,0 +1,180 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"path" : "cmake/target.cmake"
+		},
+		{
+			"path" : "cmake/GCC.14.3.1.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/debug_GCC_STM32C542CCT6/CMakeFiles/4.3.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/debug_GCC_STM32C542CCT6/CMakeFiles/4.3.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/debug_GCC_STM32C542CCT6/CMakeFiles/4.3.1/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Platform/Generic.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/Users/Flipped/AppData/Local/stm32cube/bundles/cmake/4.3.1+st.1/share/cmake-4.3/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"path" : "cmake/files.cmake"
+		},
+		{
+			"path" : "cmake/flags.cmake"
+		},
+		{
+			"path" : "cmake/components.cmake"
+		},
+		{
+			"path" : "arch/cmsis/CMakeLists.txt"
+		},
+		{
+			"path" : "stm32c5xx_dfp/CMakeLists.txt"
+		},
+		{
+			"path" : "stm32c5xx_drivers/CMakeLists.txt"
+		},
+		{
+			"path" : "utilities/syscalls/CMakeLists.txt"
+		},
+		{
+			"path" : "generated/hal/CMakeLists.txt"
+		},
+		{
+			"path" : "generated/hal/STM32_HAL_Driver_codegen.cmake"
+		},
+		{
+			"path" : "generated/utilities/CMakeLists.txt"
+		},
+		{
+			"path" : "generated/utilities/STMicroelectronics.syscalls.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project8/STM32C5_LSM6DSR_Project8_cmake/build/debug_GCC_STM32C542CCT6",
+		"source" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project8/STM32C5_LSM6DSR_Project8_cmake"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

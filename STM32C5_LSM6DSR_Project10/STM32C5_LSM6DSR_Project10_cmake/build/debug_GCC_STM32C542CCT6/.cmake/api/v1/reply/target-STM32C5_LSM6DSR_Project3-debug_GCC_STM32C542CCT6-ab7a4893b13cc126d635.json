@@ -1,0 +1,832 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "STM32C5_LSM6DSR_Project3.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"include",
+			"target_link_libraries",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"cmake/flags.cmake",
+			"cmake/components.cmake",
+			"cmake/files.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 12,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 8,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 54,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 4,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 5,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 7,
+				"parent" : 3
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 3,
+				"parent" : 14
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 3,
+				"parent" : 15
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	},
+	"compileDependencies" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "generated_STMicroelectronics_stm32c5xx_hal_drivers_0_0_1::@7aadf589f92185dd1daf"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "generated_STMicroelectronics_syscalls_2_0_0::@ee67d3c91d85aa09ffbc"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_CMSIS_6_3_0::@2526a0ecc8c9b81cc18c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_stm32c5xx_dfp_2_1_0::@30629a29855fa61b4c6a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_stm32c5xx_hal_drivers_2_1_0::@7bca7ae2963d0ee0ce7e"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_syscalls_2_0_0::@26947dc6adce9a364841"
+		}
+	],
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mcpu=cortex-m33"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mfpu=fpv5-sp-d16"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mfloat-abi=hard"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fdata-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-ffunction-sections"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-std=gnu11"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-fstack-usage"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "--specs=nano.specs"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "--specs=nosys.specs"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Werror=implicit-function-declaration"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/generated/hal/Pre_Include_Global.h"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-include"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/stm32c5xx_dfp/RTE_Components.h"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_CMSIS_CORE_6_2_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_CORTEX_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_Core_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_DMA_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_EXTI_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_FLASH_ITF_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_GPIO_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_I2C_2_0_1=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_ICACHE_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_PWR_2_0_1=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_Q_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_RCC_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_UART_2_0_1=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_HAL_timebases_SYSTICK_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_BUS_2_0_1=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_Common_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_DMA_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_EXTI_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_FLASH_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_GPIO_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_I2C_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_ICACHE_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_PWR_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_RCC_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_SBS_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_USART_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_STM32_LL_UTILS_2_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Device_Startup_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Utility_syscalls_Standalone_syscalls_1_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_Utility_sysmem_Standalone_sysmem_1_0_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_CORE_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_CORTEX_DEBUG_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_CORTEX_MPU_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_CORTEX_NVIC_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_GPIO_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_I2C_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_ICACHE_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_RCC_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_System_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Device_STM32CubeMX2_Config_UART_2_1_0=1"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "CMSIS_USE_generated_Utility_STM32CubeMX2_Config_syscalls_1_0_0=1"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "STM32C542xx"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "_RTE_"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/."
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/arch/cmsis/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/generated/hal"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/stm32c5xx_dfp/Include"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/stm32c5xx_drivers/hal"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/stm32c5xx_drivers/ll"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/stm32c5xx_drivers/timebases"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/user_modifiable/_debug_GCC_STM32C542CCT6"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/generated/hal/."
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		}
+	],
+	"id" : "STM32C5_LSM6DSR_Project3::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -Wno-comment",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,-Map=STM32C5_LSM6DSR_Project3.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--gc-sections",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--start-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-lm",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-Wl,--end-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "-static",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "--specs=nano.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mcpu=cortex-m33",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mfpu=fpv5-sp-d16",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mfloat-abi=hard",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-u",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "_printf_float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-TC:/Users/Flipped/Desktop/Document/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project10/STM32C5_LSM6DSR_Project10_cmake/user_modifiable/Device/STM32C542CCT6/stm32c542xc_flash.ld",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"linkLibraries" : 
+	[
+		{
+			"backtrace" : 9,
+			"id" : "generated_STMicroelectronics_stm32c5xx_hal_drivers_0_0_1::@7aadf589f92185dd1daf"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "generated_STMicroelectronics_syscalls_2_0_0::@ee67d3c91d85aa09ffbc"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_CMSIS_6_3_0::@2526a0ecc8c9b81cc18c"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_stm32c5xx_dfp_2_1_0::@30629a29855fa61b4c6a"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_stm32c5xx_hal_drivers_2_1_0::@7bca7ae2963d0ee0ce7e"
+		},
+		{
+			"backtrace" : 9,
+			"id" : "STMicroelectronics_syscalls_2_0_0::@26947dc6adce9a364841"
+		}
+	],
+	"name" : "STM32C5_LSM6DSR_Project3",
+	"nameOnDisk" : "STM32C5_LSM6DSR_Project3.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 16,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 16,
+			"path" : "main.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 17,
+			"compileGroupIndex" : 0,
+			"path" : "lsm6dsr_reg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_cortex_debug.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_cortex_mpu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_cortex_nvic.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_gpio_default.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_i2c1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_icache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "generated/hal/mx_usart1.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "user_modifiable/Device/STM32C542CCT6/system_stm32c5xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "user_modifiable/Device/STM32C542CCT6/startup_stm32c542xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_cortex.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_flash_itf.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_icache.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_q.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "stm32c5xx_drivers/hal/stm32c5xx_hal_uart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/syscalls/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 9,
+			"compileGroupIndex" : 0,
+			"path" : "utilities/syscalls/sysmem.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
