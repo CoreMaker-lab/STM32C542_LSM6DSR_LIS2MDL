@@ -91,6 +91,7 @@ This chapter introduces how to use the **STM32C542CCT6** to drive the **LSM6DSR*
 - **STM32C5_LSM6DSR_Project10**:STM32C5开发LSM6DSR(10)----FIFO水位中断与六轴数据读取
 - **CSDN Blog**:
 
-本章介绍如何使用 STM32C542CCT6 驱动 LSM6DSR 实现 FIFO 缓存与水位中断读取。程序将 Low-G 加速度计和陀螺仪数据分别以 60 Hz 的速率写入 FIFO，配置连续模式，并设置 128 条记录的水位阈值。达到水位后，INT1 通知 MCU 批量读取数据，根据 TAG 区分加速度和角速度，完成单位换算，并通过串口输出本批次的样本数量及三轴平均值。
 
-This chapter introduces how to use the **STM32C542CCT6** to drive the **LSM6DSR** for **FIFO buffering and watermark interrupt-based acquisition**. Low-g accelerometer and gyroscope data are each written to the FIFO at **60 Hz**. The FIFO operates in continuous mode with a watermark of **128 records**. When the watermark is reached, **INT1** notifies the MCU to read the buffered data in a batch. The program identifies acceleration and angular velocity records by their **TAG**, converts the measurements into physical units, and outputs the sample counts and three-axis averages through UART.
+本章介绍如何使用 STM32C542CCT6 驱动 LSM6DSR 实现 FIFO 缓存与水位中断读取。程序配置加速度计和陀螺仪数据写入 FIFO，设置连续模式及水位阈值。达到水位后，INT1 通知 MCU 批量读取数据，按照 FIFO 数据排列顺序解析加速度和角速度，完成单位换算，并通过串口输出本批次的样本数量及三轴平均值。
+
+This chapter introduces how to use the STM32C542CCT6 to drive the LSM6DSR for FIFO buffering and watermark interrupt-based acquisition. The program configures accelerometer and gyroscope data collection in the FIFO, enables continuous mode, and sets the watermark threshold. When the watermark is reached, INT1 notifies the MCU to read the buffered data in a batch. The program parses acceleration and angular velocity according to the FIFO data sequence, converts the measurements into physical units, and outputs the sample counts and three-axis averages through UART.
