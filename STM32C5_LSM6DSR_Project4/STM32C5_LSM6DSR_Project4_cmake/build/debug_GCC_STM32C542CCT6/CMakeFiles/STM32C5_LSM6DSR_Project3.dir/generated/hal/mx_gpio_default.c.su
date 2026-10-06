@@ -1,0 +1,7 @@
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/stm32c5xx_drivers/ll/stm32c5xx_ll_bus.h:878:22:LL_AHB2_GRP1_EnableClock	48	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/stm32c5xx_drivers/hal/stm32c5xx_hal_rcc.h:1355:22:HAL_RCC_GPIOA_EnableClock	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/stm32c5xx_drivers/hal/stm32c5xx_hal_rcc.h:1363:22:HAL_RCC_GPIOB_EnableClock	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/generated/hal/mx_gpio_default.c:31:17:mx_gpio_default_init	24	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/generated/hal/mx_gpio_default.c:99:17:mx_gpio_default_deinit	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/generated/hal/mx_gpio_default.c:116:20:mx_gpio_default_exti0_gethandle	4	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project4/STM32C5_LSM6DSR_Project4_cmake/generated/hal/mx_gpio_default.c:124:6:EXTI0_IRQHandler	8	static
