@@ -1,0 +1,5 @@
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/stm32c5xx_drivers/ll/stm32c5xx_ll_bus.h:878:22:LL_AHB2_GRP1_EnableClock	48	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/stm32c5xx_drivers/hal/stm32c5xx_hal_rcc.h:1355:22:HAL_RCC_GPIOA_EnableClock	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/stm32c5xx_drivers/hal/stm32c5xx_hal_rcc.h:1363:22:HAL_RCC_GPIOB_EnableClock	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/generated/hal/mx_cortex_debug.c:32:17:mx_cortex_debug_init	16	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/generated/hal/mx_cortex_debug.c:81:6:mx_cortex_debug_deinit	8	static

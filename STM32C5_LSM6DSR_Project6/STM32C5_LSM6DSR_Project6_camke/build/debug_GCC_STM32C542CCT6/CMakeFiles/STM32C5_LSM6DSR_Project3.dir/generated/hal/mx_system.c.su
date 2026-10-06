@@ -1,0 +1,4 @@
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project6/STM32C5_LSM6DSR_Project6_camke/generated/hal/mx_system.c:32:17:mx_system_init	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project6/STM32C5_LSM6DSR_Project6_camke/generated/hal/mx_system.c:140:6:SysTick_Handler	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project6/STM32C5_LSM6DSR_Project6_camke/generated/hal/mx_system.c:150:24:pre_system_init_hook	4	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project6/STM32C5_LSM6DSR_Project6_camke/generated/hal/mx_system.c:162:24:post_system_init_hook	4	static

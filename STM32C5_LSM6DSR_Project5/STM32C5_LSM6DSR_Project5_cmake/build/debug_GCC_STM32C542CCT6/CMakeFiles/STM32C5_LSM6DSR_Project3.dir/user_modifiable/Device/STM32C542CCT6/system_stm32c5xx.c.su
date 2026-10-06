@@ -1,0 +1,4 @@
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/stm32c5xx_dfp/Include/stm32c5xx.h:244:22:SCB_SetVTOR	16	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/stm32c5xx_dfp/Include/stm32c5xx.h:383:22:SCB_EnableFPU	4	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/user_modifiable/Device/STM32C542CCT6/system_stm32c5xx.c:148:6:SystemInit	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/user_modifiable/Device/STM32C542CCT6/system_stm32c5xx.c:196:6:SystemCoreClockUpdate	16	static

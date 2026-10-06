@@ -1,0 +1,3 @@
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/generated/hal/mx_rcc.c:44:17:mx_rcc_init	24	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/generated/hal/mx_rcc.c:96:6:mx_rcc_deinit	8	static
+E:/Document/STM32C5_LSM6DSR_Project/STM32C5_LSM6DSR_Project5/STM32C5_LSM6DSR_Project5_cmake/generated/hal/mx_rcc.c:104:17:mx_rcc_peripherals_clock_config	4	static

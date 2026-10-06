@@ -1,0 +1,36 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "下载",
+      "type": "shell",
+      "icon": 
+      {
+        "id": "download",
+        "tooltip": "下载程序并复位"
+      },
+      "command": "D:/3_Software/STM32CubeProgrammer/bin/STM32_Programmer_CLI.exe",
+      // "command":"${env:CUBE_BUNDLE_PATH}/programmer/2.22.0+st.1/bin/STM32_Programmer_CLI.exe",
+      "args": [
+        "-c", "port=SWD",
+        "-w",
+        "${workspaceFolder}/build/${command:cmake.activeBuildPresetName}/${command:cmake.getLaunchTargetName}.elf",
+        "-v",
+        "-rst"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
