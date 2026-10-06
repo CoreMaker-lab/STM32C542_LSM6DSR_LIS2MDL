@@ -26,9 +26,9 @@
 - **STM32C5_LSM6DSR_Project1**:STM32C5开发LSM6DSR(1)----轮询获取陀螺仪数据
 - **CSDN Blog**:
 
-本章介绍如何使用 STM32C5 通过 I²C 接口驱动 LSM6DSV320X，以轮询方式读取三轴角速度数据。程序首先完成设备 ID 检查、软件复位和基本参数配置，设置陀螺仪的输出数据率与量程，并使能 BDU（块数据更新）。主循环检查数据就绪状态，读取原始角速度数据并转换为对应的物理单位，最后通过串口输出采集结果。
+本章介绍如何使用 STM32C5 通过 I²C 接口驱动 LSM6DSR，以轮询方式读取三轴角速度数据。程序首先完成设备 ID 检查、软件复位和基本参数配置，设置陀螺仪的输出数据率与量程，并使能 BDU（块数据更新）。主循环检查数据就绪状态，读取原始角速度数据并转换为对应的物理单位，最后通过串口输出采集结果。
 
-This chapter introduces how to use the **STM32C5** to communicate with the **LSM6DSV320X** over **I²C** and acquire three-axis angular velocity data through polling. The program performs device ID verification, a software reset, and basic configuration, including the gyroscope output data rate, full-scale range, and **Block Data Update (BDU)**. The main loop checks the data-ready status, reads the raw angular velocity data, converts it into physical units, and outputs the results through UART.
+This chapter introduces how to use the **STM32C5** to communicate with the **LSM6DSR** over **I²C** and acquire three-axis angular velocity data through polling. The program performs device ID verification, a software reset, and basic configuration, including the gyroscope output data rate, full-scale range, and **Block Data Update (BDU)**. The main loop checks the data-ready status, reads the raw angular velocity data, converts it into physical units, and outputs the results through UART.
 
 - **STM32C5_LSM6DSR_Project2**:STM32C5开发LSM6DSR(2)----中断获取陀螺仪数据
 - **CSDN Blog**:
